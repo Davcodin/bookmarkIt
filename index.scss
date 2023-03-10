@@ -1,0 +1,567 @@
+@font-face {
+    font-family: 'rubik';
+    src        : url(Rubik/static/Rubik-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    max-width   : 1440px;
+    margin-left : auto;
+    margin-right: auto;
+}
+
+
+body {
+    font-family: 'rubik', Arial, Helvetica, sans-serif;
+    margin     : 0;
+    padding    : 0;
+}
+.book{
+    padding: 20px;
+}
+header img {
+    width: 20%;
+}
+
+.validate{
+    // visibility: hidden;
+    display: none;
+}
+header {
+    display        : flex;
+    justify-content: space-between;
+    margin         : 0;
+    padding        : 0;
+}
+
+header nav ul {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+header nav{
+    padding: 20px;
+}
+header ul li {
+    list-style  : none;
+    display     : inline;
+    margin-right: 10px;
+}
+header ul li a:hover{
+    color: hsl(0, 94%, 66%);
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color          : black;
+}
+
+header nav ul li a button {
+    margin-left     : 20px;
+    width           : 100px;
+    padding         : 10px;
+    border          : none;
+    background-color: hsl(0, 94%, 66%);
+    border-radius   : 5px;
+    color           : white;
+    box-shadow      : 3px 3px 3px rgb(220, 217, 217);
+}
+header nav ul li a button:hover{
+    background-color: white;
+    border: 3px solid hsl(0, 94%, 66%);
+    color: hsl(0, 94%, 66%);
+}
+h1 {
+    font-size: 48px;
+    width    : 45%;
+    padding: 20px;
+}
+
+.clean {
+    padding-left: 20px;
+    width: 35%;
+    color: rgb(173, 171, 171);
+}
+
+.blue {
+    margin-top      : -150px;
+    margin-left     : 700px;
+    width           : 563px;
+    background-color: hsl(231, 69%, 60%);
+    height          : 300px;
+    border-radius   : 200px 0 0 200px;
+}
+
+.blues {
+    position        : relative;
+    top             : 200px;
+    
+    width           : 523px;
+    background-color: hsl(231, 69%, 60%);
+    height          : 330px;
+    border-radius   : 0 200px 200px 0;
+}
+
+.tabOne {
+    float     : right;
+    margin-top: -259px;
+}
+
+.first {
+    margin-top: 200px;
+}
+
+    
+.color-blue-button {
+    background-color: hsl(231, 69%, 60%);
+    border          : none;
+    box-shadow      : 3px 3px 3px rgb(220, 217, 217);
+    padding         : 10px;
+    color           : rgb(255, 255, 255);
+    border-radius   : 5px;
+    width           : 15%;
+    margin-left: 20px;   
+}
+.color-blue-button:hover{
+    background-color: white;
+    color: hsl(231, 69%, 60%);
+    border: 3px solid hsl(231, 69%, 60%);
+}
+.color-gray-button {
+    box-shadow      : 3px 3px 3px rgb(220, 217, 217);
+    margin-top      : 20px;
+    background-color: hsl(240, 7%, 95%);
+    border          : none;
+    padding         : 10px;
+    color           : black;
+    border-radius   : 5px;
+    width           : 15%;
+}
+.color-gray-button:hover{
+    border: 3px solid rgb(33, 32, 32);
+    color: rgb(33, 32, 32);
+    background-color: white;
+}
+h2 {
+    margin-top: 200px;
+    text-align: center;
+    font-size : 38px;
+    font-size : bold;
+}
+
+.aim {
+    text-align: center;
+    color     : rgb(173, 171, 171);
+}
+
+.aims {
+    margin-top: -10px;
+    text-align: center;
+    color     : rgb(173, 171, 171);
+}
+#submit{
+    cursor: pointer;
+}
+
+.aimss {
+    margin-top: -10px;
+    text-align: center;
+    color     : rgb(173, 171, 171);
+}
+
+#semi-header {
+    margin-top : 100px;
+    margin-left: 40px;
+}
+
+#semi-header p {
+    cursor: pointer;
+    display     : inline;
+    margin-right: 50px;
+
+
+}
+
+#semi-header p:hover {
+    color: hsl(0, 94%, 66%);
+}
+
+.simple-bookmark {
+    color        : black;
+    margin-left  : 300px;
+    padding      : 28px;
+    border-bottom: 3px solid hsl(0, 94%, 66%);
+}
+
+hr {
+    margin-top: 30px;
+    width     : 45%;
+}
+
+#speedy {
+    color: rgb(173, 171, 171);
+}
+
+.Easy {
+    color: rgb(173, 171, 171);
+}
+
+.features {
+    position: absolute;
+    top     : 1370px;
+    left    : 200px;
+    display : block;
+}
+
+#bookmark {
+    margin-top : -150px;
+    margin-left: -800px;
+    float      : right;
+}
+
+h3 {
+    margin-left: -190px;
+    font-size  : 35px;
+    font-weight: 900;
+}
+
+#bookmark p {
+    color      : rgb(143, 141, 141);
+    margin-left: -190px;
+}
+
+.simple {
+    margin-top: -10px;
+}
+
+.over {
+    margin-top: -10px;
+}
+
+#more {
+    background-color: hsl(231, 69%, 60%);
+    border          : none;
+    box-shadow      : 3px 3px 3px rgb(220, 217, 217);
+    padding         : 10px;
+    color           : rgb(255, 255, 255);
+    border-radius   : 5px;
+    width           : 65%;
+    margin-left     : -190px;
+}
+#higher{
+    margin-top: 200px;
+}
+#higher p{
+   color: rgb(143, 141, 141);
+   text-align: center;
+}
+.favourite{
+    margin-top: -10px;
+}
+h4{
+    margin-top: 350px;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+}
+.rotate{
+    transform: rotate(180deg);
+    color: hsl(0, 94%, 66%);
+    
+}
+.paragraphOne p{
+    color: hsl(0, 1%, 64%);
+    text-align: justify;
+    width: 100%;
+}
+
+.visibility {
+    display: none;
+}
+.visible{
+    display: none;
+}
+.app{
+    display: none;
+}
+.curriculum{
+    display: none;
+}
+
+#reduce{
+    color: white;
+    margin-top: -60px;
+    margin-left: 380px;
+    font-size: 12px;
+    width: 300px;
+    font-style: italic;
+    letter-spacing: normal;
+    position: absolute;
+    left: -400px;
+    top: -10px;
+}
+
+#myButton{
+    cursor: pointer;
+    position: absolute;
+    top: 4020px;
+    left: 630px;
+    background-color: hsl(0, 94%, 66%);
+    border: none;
+    color: white;
+    border-radius: 50%;
+    display: none;
+}
+#paragraphFive{
+    position: relative;
+    top: -10px;
+    left: 400px;
+    height: 20px;
+    width: 20%;
+    background-color: hsl(0, 94%, 66%);
+   
+}
+.feature{
+    cursor: pointer;
+}
+.feature:hover{
+    color: hsl(0, 94%, 66%);
+}
+.partFive{
+    visibility: hidden;
+}
+
+
+footer button{
+    border-radius: 50%;
+    border: none;
+    margin-left: -25px;
+    background-color: hsl(0, 94%, 66%);
+    color: white;
+}
+.chrome{
+    
+    width: 20%;
+    margin-left: 200px;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 10px rgba(175, 210, 244, 0.35), -5px 0 10px rgba(175, 210, 244, 0.35);
+}
+.chrome button, .firefox button, .opera button{
+    cursor: pointer;
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+   
+}
+.chrome button:hover, .firefox button:hover, .opera button:hover{
+    background-color: white;
+    color: hsl(231, 69%, 60%);
+    border: 3px solid hsl(231, 69%, 60%);
+}
+.opera{
+    width: 20%;
+    margin-left: 800px;
+    margin-top: -270px;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 10px rgba(175, 210, 244, 0.35), -5px 0 10px rgba(175, 210, 244, 0.35);
+}
+.chrome img{
+    margin-left: 70px;
+}
+.chrome #add{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+ .firefox #fire{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.opera #fire{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+#dotes{
+    margin-left: -20px;
+    width: 245px;
+}
+.firefox{
+    width: 20%;
+    margin-left: 500px;
+    margin-top: -280px;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 10px rgba(175, 210, 244, 0.35), -5px 0 10px rgba(175, 210, 244, 0.35);
+}
+
+.firefox img{
+    margin-left: 70px;
+  
+}
+.operamini-img{
+    margin-left: 70px;
+}
+// FAQs
+.faqs-detail{
+    text-align: center;
+    color: rgb(173, 171, 171);
+}
+.faqs-details{
+    text-align: center;
+    color: rgb(173, 171, 171);
+    margin-top: -10px;
+}
+.select{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+select{
+    cursor: pointer;
+    border: none;
+    margin-left: 700px;
+    color: hsl(231, 69%, 60%);
+   
+}
+.selectOne{
+    cursor: pointer;
+    display: block;
+    border-top: 1px solid rgb(196, 196, 196);
+    padding: 20px;
+}
+.selectOne:hover{
+    color: hsl(0, 94%, 66%);
+}
+.reduce-the-border-width{
+    width: 1000px;
+}
+label{
+    font-weight: 400;
+    font-size: 20px;
+}
+.border{
+    display: block;
+    margin-bottom: -80px;
+    margin-left: 200px;
+    width: 20%;
+    border-top: 1px solid rgb(196, 196, 196);
+}
+.more-info{
+    margin-left: 500px;
+    background-color: hsl(231, 69%, 60%);
+    border          : none;
+    box-shadow      : 3px 3px 3px rgb(220, 217, 217);
+    padding         : 20px;
+    color           : rgb(255, 255, 255);
+    border-radius   : 5px;
+    width           : 10%;
+    
+}
+footer{
+    background-color: hsl(231, 69%, 60%);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 200px;
+    
+}
+footer p{
+    color: hsl(240, 7%, 95%);
+    text-align: center;
+    padding-top: 70px;
+    letter-spacing: 5px;
+}
+footer h3{
+    color: #fff;
+    margin-left: 400px;
+}
+footer img{
+    float: left;
+}
+.e-mail{
+    border: 2px solid hsl(0, 94%, 66%);
+    
+}
+.second-footer-headerThree{
+    color: #fff;
+    margin-left: 500px;
+    margin-top: -30px;
+}
+input[type="email"]{
+    position: relative;
+    cursor: text;
+    margin-left: 400px;
+    width: 20%;
+    padding: 15px;
+    border-radius: 5px;
+    
+}
+input[type="submit"]{
+    background-color: hsl(0, 94%, 66%);
+    color: white;
+    border: none;
+    width: 10%;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+input[type="submit"]:hover{
+    background-color: white;
+    border: 3px solid hsl(0, 94%, 66%);
+    color: hsl(0, 94%, 66%);
+}
+input[type="email"]::placeholder{
+    color: hsl(0, 0%, 77%);
+}
+.lower-footer{
+    background-color: hsl(229, 31%, 21%);
+    padding: 40px;
+    margin-top: 100px;
+}
+.lower-footer ul{
+    margin: 0;
+    padding: 0;
+}
+.lower-footer ul li{
+    list-style: none;
+    display: inline;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+.lower-footer ul li a{
+    color: hsl(0, 0%, 77%);
+    text-decoration: none;
+}
+.icon{
+    margin-top: -20px;
+    margin-left: 1000px;
+    margin-right: 20px;
+}
+.fb-img{
+    margin-right: 50px;
+    cursor: pointer;
+}
+.fb-img:hover{
+    background-color: hsl(0, 94%, 66%);
+}
+.twitter{
+    cursor: pointer;
+}
+.twitter:hover{
+    background-color: hsl(0, 94%, 66%);
+}
+// active-state
